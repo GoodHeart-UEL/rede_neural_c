@@ -16,8 +16,9 @@ Foi implementada a rede neural utilizando a seguinte estrutura:
 <div align="center">
   <img src="./estrutura_rede_neural.png" align="center"/>
 </div>
+</br>
 
-Cada "objeto" representado pela imagem acima está implementado em formato TADs (Tipo Abstrato de Dados) e possuem arquivos ```.c``` e ```.h```. É possível consultar a utilidade de cada TAD em seu respectivo arquivo ```.h```.
+Cada "objeto" representado pela imagem acima está implementado no formato de TAD (Tipo Abstrato de Dados). É possível consultar a utilidade e as funções de cada TAD em seu respectivo arquivo ```.h```. Já nos arquivos ```.c``` estão as implementações das funções descritas nos arquivos ```.h```.
 
 Para atualizar os pesos da rede neural basta editar os arquivos: 
 ```h_weights.txt``` (pesos da camada oculta) e ```o_weights.txt``` (pesos da camada de saída).
